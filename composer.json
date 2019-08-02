@@ -1,0 +1,25 @@
+{
+    "name": "doan/composer-copy-file",
+    "description": "Copy file to destination after composer install/update",
+    "keywords": ["copy file"],
+	"license": "MIT",
+    "authors": [
+        {
+			"name": "Kai Doan",
+            "email": "dvnluan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Doan\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
